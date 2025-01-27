@@ -254,3 +254,86 @@ body {
 .fill-out-form:hover {
     background-color: #CF6D00;
 }
+
+/* Адаптивные стили */
+@media (max-width: 1024px) {
+    .top-text {
+        flex-direction: column;
+        margin-left: 0; 
+        align-items: center;
+    }
+
+    .gif-image {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .lower-text {
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar a {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-us h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .htj-container {
+        width: 95%;
+    }
+
+    .join-ds, .copy-ip, .fill-out-form {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .gif-image {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .top-text {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .lower-text {
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
