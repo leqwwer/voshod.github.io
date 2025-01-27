@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tiny5&display=swap");
+
+@font-face {
+    font-family: "MinecraftFont";
+    src: url(minecraft.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background: 
+        url(images/fon.png) no-repeat center top,
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(255, 134, 0, 0.5));
+    background-size: cover;
+    font-family: "Press Start 2P", serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: linear-gradient(to right, rgba(207, 109, 0, 0.5), rgba(255, 134, 0, 0.5));
+    border: 1px solid rgba(207, 109, 0, 0.5)
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; 
+}
+
+.navbar a {
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 5%;
+}
+
+.header2 {
+    color: black;
+}
+
+.first-text {
+    position: relative;
+}
+
+.top-text {
+    display: flex;
+    align-items: center;
+    font-family: "Press Start 2P", serif;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-left: 0px;
+}
+
+.text-contanier {
+    margin-right: 20px;
+}
+
+.gif-image {
+    width: 250px;
+    height: auto;
+    margin-left: 500px;
+    z-index: 2
+}
+
+.romb {
+    z-index: 1;
+    position: absolute;
+    margin-left: 810px;
+    margin-top: 55px;
+    width: 440px;
+    height: auto
+}
+
+.lower-text {
+    font-family: "MinecraftFont", sans-serif;
+    position: absolute;
+    top: 230px;
+    left: 100px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.join-ds {
+    background-color: #FF8600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Press Start 2P", serif;
+}
+
+.copy-ip {
+    background-color: #FF8600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Press Start 2P", serif;
+}
+
+.join-ds:hover {
+    background-color: #CF6D00;
+}
+
+.copy-ip:hover {
+    background-color: #CF6D00;
+}
+
+.about-us {
+    width: 100%;
+    margin-top: 310px
+}
+
+.about-us h2 {
+    margin-left: 80px
+}
+
+.card-container {
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background: linear-gradient(to right, rgba(207, 109, 0, 0.5), rgba(255, 134, 0, 0.5));
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    margin: 0 10px;
+    margin-left: 10px;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card h3 {
+    font-family: "MinecraftFont", sans-serif;
+}
+
+.card p {
+    color: brown
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+.modal-content {
+    font-family: "MinecraftFont", sans-serif;
+    background: linear-gradient(to right, rgba(207, 109, 0, 0.5), rgba(255, 134, 0, 0.5));
+    color: white;
+    margin: 5% auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+}
+.close {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.how-to-join {
+    font-family: "MinecraftFont", sans-serif;
+    margin-top: 150px;
+    width: 100%;
+}
+
+.htj-container {
+    background: linear-gradient(to right, rgba(207, 109, 0, 0.5), rgba(255, 134, 0, 0.5));
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.how-to-join h2 {
+    font-family: "Press Start 2P", serif;
+    margin-left: 80px
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.fill-out-form {
+    background-color: #FF8600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Press Start 2P", serif;
+    transition: background-color 0.3s;
+}
+
+.fill-out-form:hover {
+    background-color: #CF6D00;
+}
